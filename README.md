@@ -1,6 +1,6 @@
 # GuardMinecraft
 
-一个通过Cloudflare Warp代理Minecraft正版验证接口以绕过<s>中国</s>移动运营商屏蔽的软件
+一个通过Cloudflare Warp代理Minecraft正版验证接口以绕过<s><b>中国</b></s>移动运营商屏蔽的软件
 
 
 ## Thanks

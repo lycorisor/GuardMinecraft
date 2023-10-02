@@ -57,6 +57,7 @@ const ProxyDefaultConfig = `{
                 "outbound": "dns-out"
             }
         ],
+ 		"final": "direct",
         "auto_detect_interface": true
     },
 	"inbounds": [

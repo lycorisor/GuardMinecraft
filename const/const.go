@@ -14,12 +14,6 @@ const ProxyDefaultConfig = `{
                 "detour": "direct"
             },
             {
-                "tag": "dns_direct",
-                "address": "https://dns.alidns.com/dns-query",
-                "address_resolver": "dns_resolver",
-                "detour": "direct"
-            },
-            {
                 "tag": "dns_resolver",
                 "address": "223.5.5.5",
                 "detour": "direct"
@@ -33,14 +27,9 @@ const ProxyDefaultConfig = `{
                     "minecraftservices.com"
                 ],
                 "server": "dns_proxy"
-            },
-            {
-                "outbound": [
-                    "any"
-                ],
-                "server": "dns_resolver"
             }
-        ]
+        ],
+		"final": "dns_resolver"
     },
     "route": {
         "rules": [
